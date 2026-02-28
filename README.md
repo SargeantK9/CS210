@@ -1,6 +1,10 @@
 # CS210
 The repository for my CS210 class at SNHU.
 
+# How to Use
+
+Make sure you download the CMakeLists, functions.cpp, functions.h, and main.cpp into one folder. Then open the folder as a project in your IDE. Depending on the IDE, the project may not load as a C++ project and will not reload the CMakeLists and debug files required for the main.cpp to navigate the program files. If this happens, open a new project with just the CMakeLists file. This should cause your IDE to open the project for C++ and you can force the project to reload CMake project allowing it to run properly.
+
 # What, Why, "AND HOW"
 
 The project implements a console-based clock application that displays both a 12-hour and 24-hour clock simultaneously. The program allows users to adjust time through a menu interface while ensuring both time formats remain synchronized. The goal was to maintain accuracy between the two representations while minimizing redundant calculations.
